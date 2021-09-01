@@ -17,7 +17,7 @@ with io.open("README.md", encoding="utf-8") as fileObj:
     long_description = fileObj.read()
 
 setup(
-    name="SafeFS",
+    name="safefilesystem",
     version=version,
     url="https://github.com/asweigart/safefs",
     author="Al Sweigart",
